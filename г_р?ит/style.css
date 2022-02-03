@@ -71,11 +71,13 @@ body {
   background-color: #5a0d67;
   border: none;
   border-radius: 0;
+  border: 1px solid #5a0d67;
 }
 
 .btn-primary:hover {
   background-color: #fff;
   color: #5a0d67;
+  border-color: #5a0d67;
 }
 
 .sub-header {
@@ -142,7 +144,7 @@ body {
   }
   .bordered {
     border-top: 1.5px solid #fff;
-    border-bottom: 1.5px solid #fff;
+    border-bottom: 1.5px solid rgb(255, 145, 0);
   }
   .btn-holder {
     width: 50%;
@@ -165,4 +167,93 @@ body {
   .header-text {
     font-size: 11px;
   }
+}
+
+.section-title {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #21062a;
+  position: relative;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.section-title::after {
+  content: "";
+  height: 3px;
+  position: absolute;
+  width: 80px;
+  background: #21062a;
+  top: 40%;
+  left: 100%;
+}
+
+.services {
+  padding: 343px 0 100px;
+}
+
+.services-title {
+  color: #5a0d67;
+  font-size: 18px;
+  line-height: 27px;
+}
+.services-text {
+  margin-bottom: 69px;
+}
+.btn-touch {
+  position: relative;
+  border: 1px solid #5a0d67;
+}
+.btn-touch:hover {
+  border: 1px solid #5a0d67;
+}
+.btn-touch::after {
+  content: "Жми";
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  color: #c4c4c4;
+}
+.btn-touch::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 1px;
+  background: #c4c4c4;
+  top: 0;
+  left: 100%;
+}
+.service-andreylox {
+  margin-bottom: 69px;
+}
+
+.count {
+  transform: rotate(-90deg);
+  padding: 8px 20px;
+  color: #c4c4c4;
+  width: 75px;
+  font-size: 36px;
+  margin-right: 20px;
+}
+.service-item {
+  border: 1px solid #c4c4c4;
+  display: flex;
+  max-width: 450px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.text-heading {
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+.block-text span {
+  width: 200px;
+}
+.service-item:hover .count {
+  color: #5a0d67;
 }
