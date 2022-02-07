@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
+
 body {
   font-family: "Oswald", sans-serif;
 }
@@ -254,6 +255,71 @@ body {
 .block-text span {
   width: 200px;
 }
-.service-item:hover .count {
+.service-item:hover .count{
   color: #5a0d67;
+}
+.service-item:hover h4{
+  color: #5a0d67;
+}
+.service-item:hover{
+  color: #5a0d67;
+  border: 3px solid #5a0d67;
+  max-width: 500px;
+  margin-bottom: 14px;
+}
+.service-item span {
+  color: #2C2B2B
+}
+.header-textx {
+  color: #21062a;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 235px;
+}
+.texts {
+  border: 1px solid #21062A;
+  max-width: 785px;
+  max-height: 490px;
+  background: #21062A;
+  color:#ffff;
+  text-align: justify;
+  height: 507px;
+  padding-left: 182px;
+  padding-top: 23px;
+  width: 875px;
+  margin-left: 55px;
+  margin-top: 58px;
+}
+.header-textx::after  {
+  content: " ";
+  height: 3px;
+  width: 80px;
+  background: #21062a;
+  color: #5a0d67;
+  position: absolute;
+  left: 85%;
+  top: 40%;
+}
+.texts h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+}
+.texts h4 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+.texts p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  color: #c4c4c4;
+  line-height: 17px;
+  margin-right: 100px;
+  
 }
