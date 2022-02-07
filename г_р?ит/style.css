@@ -276,7 +276,7 @@ body {
   line-height: 53px;
   text-transform: uppercase;
   position: relative;
-  padding-left: 235px;
+  padding-left: 242px;
 }
 .texts {
   border: 1px solid #21062A;
@@ -299,7 +299,7 @@ body {
   background: #21062a;
   color: #5a0d67;
   position: absolute;
-  left: 85%;
+  left: 80%;
   top: 40%;
 }
 .texts h1 {
@@ -322,4 +322,13 @@ body {
   line-height: 17px;
   margin-right: 100px;
   
+}
+.zxclox::after{
+  width: 80px;
+  content: "";
+  height: 3px;
+  background: #21062A;
+  position: absolute;
+  top: 2412px;
+  left: 30%;
 }
